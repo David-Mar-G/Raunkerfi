@@ -27,7 +27,7 @@ def main(stdscr):
 
             if key == ord('w'):
                 stdscr.addstr(1, 0, "Forward   ")
-                robot.forward()
+                robot.forward(0.2)
 
             elif key == ord('s'):
                 stdscr.addstr(1, 0, "Backward  ")
